@@ -106,7 +106,7 @@ color: #FEF4EF;
   display: flex;
   flex-direction: row;
   height: 80rem;
-  background-image: url("../assets/img/bgdobra2.png");
+  background-image: url('../assets/img/bgdobra2.png');
   background-repeat: no-repeat;
   background-position: center;
 }
