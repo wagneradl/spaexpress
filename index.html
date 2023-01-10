@@ -4,9 +4,310 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+
+font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+.herorowcontainer {
+    background-color: #CEABDB;
+    display: flex;
+    flex-direction: row;
+    height: 80rem;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#logo {
+    position: absolute;
+    width: 12.014rem;
+    left: 11.063rem;
+    top: 9rem;
+}
+
+.text {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 11.063rem;
+  padding-top: 22rem;
+}
+
+#hero1 {
+    font-family: 'Roboto';
+    font-size: 3rem;
+    line-height: 60px;
+    color: #FEF4EF;
+}
+
+#hero2 {
+  font-family: 'Italiana';
+    font-size: 10rem;
+    line-height: 60px;
+    color: #FEF4EF;
+}
+
+#psub {
+  padding-top: 10rem;
+}
+
+.herosub {
+font-family: 'Roboto';
+padding-top: 0.4rem;
+font-size: 1.8rem;
+color: #FEF4EF;
+
+}
+
+#button {
+  font-family: 'Roboto';
+  color: #FEF4EF;
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: #8374A1;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 1.29rem;
+  margin-top: 5rem;
+  width: 30rem;
+  height: 5rem;
+  border-radius: 50rem;
+  z-index: 2;
+  box-shadow: 0px 10px 40px rgba(143, 109, 155, 0.7);
+  
+}
+
+#wave {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 50rem;
+  width: 100%;
+  height: 30rem;
+  margin-inline-start: -25rem;
+  z-index: 1;
+}
+
+.dobra2 {
+  display: flex;
+  flex-direction: row;
+  height: 80rem;
+  background-image: url(/assets/img/BG-dobra-2\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.italiana {
+  font-family: 'Italiana';
+    font-size: 8rem;
+    color: #FEF4EF;
+    padding-left: 11.063rem;
+    padding-top: 8rem;
+}
+
+.textdobra2 {
+  width: 78rem;
+}
+
+.pdobra2 {
+font-family: 'Roboto';
+font-size: 2rem;
+color: #FEF4EF;
+padding-left: 11.063rem;
+padding-top: 10rem;
+line-height: 3rem;
+}
+
+.wave2 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 45rem;
+  width: 100%;
+  height: 35em;
+overflow: hidden;
+}
+
+.bullets ul {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto';
+  font-size: 2rem;
+  color: #FEF4EF;
+  list-style: none;
+  justify-content: space-between;
+  text-align: center;
+  gap: 10rem;
+}
+
+.bullets {
+  position: absolute;
+  margin-top: 65rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0rem 10rem;
+
+}
+
+.dobra3 {
+  display: flex;
+  flex-direction: row;
+  height: 80rem;
+
+}
+
+.row2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.textdobra3 {
+width: 40%;
+position: absolute;
+margin-left: 68rem;
+margin-top: 10rem;
+display: flex;
+flex-direction: row;
+
+}
+
+.pdobra3 {
+  font-family: 'Italiana';
+  font-size: 7rem;
+  color: #8374A1;
+  text-align: left;
+  list-style: none;
+}
+
+.ppdobra3 {
+  font-family: 'Roboto';
+font-size: 2rem;
+color: #8374A1;
+
+}
+
+.t3 {
+position: absolute;
+margin-left: 68rem;
+width: 60rem;
+margin-top: 30rem;
+}
+
+#button2 {
+  font-family: 'Roboto';
+  color: #FEF4EF;
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: #CEABDB;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-top: 5rem;
+  width: 35rem;
+  height: 10rem;
+  border-radius: 50rem;
+  line-height: 3rem;
+  box-shadow: 0px 10px 40px rgba(143, 109, 155, 0.7);
+}
+.divbutton2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 71rem;
+}
+
+.dobra4 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80rem;
+  background-color: #8374A1;
+}
+
+.video {
+  display: flex;
+  flex-direction: row;
+  width: 30rem;
+  height: 40%;
+  margin-top: 23rem;
+  margin-left: 10rem;
+}
+
+.divtextdobra4 {
+width: 120%;
+display: flex;
+flex-direction: column;
+margin-left: 80rem;
+padding-right: 120rem;
+margin-top: 18rem;
+position: absolute;
+
+
+}
+
+.h1dobra4 {
+  font-family: 'Italiana';
+  font-size: 5rem;
+  color: #FEF4EF;
+}
+
+.h2dobra4 {
+  font-family: 'Roboto';
+  font-size: 3rem;
+  line-height: 60px;
+  color: #FEF4EF;
+}
+
+.pdobra4 {
+  font-family: 'Roboto';
+  font-size: 2rem;
+  color: #FEF4EF;
+}
+
+#button3 {
+  font-family: 'Roboto';
+  color: #FEF4EF;
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: #CEABDB;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 1.29rem;
+  margin-top: 5rem;
+  width: 25rem;
+  height: 5rem;
+  border-radius: 50rem;
+  z-index: 2;
+  box-shadow: 0px 10px 40px rgba(143, 109, 155, 0.7);
+}
+    </style>
     <title>SPA Express</title>
 </head>
 <body>
