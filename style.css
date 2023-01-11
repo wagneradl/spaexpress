@@ -253,14 +253,13 @@ margin-top: 30rem;
 }
 
 .divtextdobra4 {
-width: 120%;
+width: 40%;
+margin-left: 70rem;
 display: flex;
 flex-direction: column;
-margin-left: 80rem;
-padding-right: 120rem;
 margin-top: 18rem;
 position: absolute;
-
+box-sizing: border-box;
 
 }
 
@@ -299,3 +298,17 @@ position: absolute;
   z-index: 2;
   box-shadow: 0px 10px 40px rgba(143, 109, 155, 0.7);
 }
+
+@media (max-width: 480px) { */
+
+/* .logo {
+}
+
+  #logo {
+    position: absolute;
+    padding-left: 3rem;
+  }
+  
+  #img {
+    display: none;
+  }
