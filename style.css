@@ -1,5 +1,7 @@
 :root {
 
+
+
 font-size: 62.5%;
 }
 
@@ -62,7 +64,8 @@ html {
 }
 
 #psub {
-  padding-top: 10rem;
+padding-top: 10rem;
+line-height: 3rem;
 }
 
 .herosub {
@@ -183,7 +186,6 @@ margin-left: 68rem;
 margin-top: 10rem;
 display: flex;
 flex-direction: row;
-
 }
 
 .pdobra3 {
@@ -208,24 +210,6 @@ width: 60rem;
 margin-top: 30rem;
 }
 
-#button2 {
-  font-family: 'Roboto';
-  color: #FEF4EF;
-  font-size: 2rem;
-  text-decoration: none;
-  background-color: #CEABDB;
-  box-sizing: border-box;
-  text-align: center;
-  padding-top: 2rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
-  margin-top: 5rem;
-  width: 35rem;
-  height: 10rem;
-  border-radius: 50rem;
-  line-height: 3rem;
-  box-shadow: 0px 10px 40px rgba(143, 109, 155, 0.7);
-}
 .divbutton2 {
   position: absolute;
   display: flex;
@@ -297,17 +281,209 @@ box-sizing: border-box;
   box-shadow: 0px 10px 40px rgba(143, 109, 155, 0.7);
 }
 
-@media (max-width: 480px) { 
+ @media (min-width: 480px) { 
 
-.logo {
+  .bulletsmobile1 {
+    display: none;
+  }
+
+  .bulletsmobile2 {
+    display: none;
+  }
+
+  .fotomobile {
+    display: none;
+  }
+
 }
+
+  @media (max-width: 480px) { 
 
   #logo {
     position: absolute;
-    padding-left: 3rem;
+    margin-left: 2rem;
+    padding-left: 1rem; 
   }
   
   #img {
     display: none;
   }
+
+.text {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 4.4rem;
+}
+
+#hero1 {
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    color: #FEF4EF;
+    padding-top: 3rem;
+}
+
+#hero2 {
+    font-size: 5rem;
+    margin-top: -2rem;
+    color: #FEF4EF;
+}
+
+#psub {
+  padding-top: 10rem;
+}
+
+.herosub {  
+  margin-top: -5rem;
+  font-size: 1.5rem;
+  color: #FEF4EF;
+  width: 100%;
+  height: 14rem;
+}
+
+#button {
+  margin-top: 15rem;
+}
+
+.italiana {
+  font-size: 5rem; 
+  margin-top: 0rem;
+}
+
+.pdobra2 {
+  font-size: 1.5rem;
+  margin-top: -6rem;
+  line-height: 2rem;
+}
+
+.textdobra2 {
+  position: absolute;
+  width: 100%;
+  margin-left: -6rem;
+}
+
+.bullets {
+  display: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.bulletsmobile1 {
+  width: 80%;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 1.4rem;
+  color: #FEF4EF;
+  margin-top: 60rem;
+  margin-left: 4rem;
+}
+
+.bulletsmobile2 {
+  width: 80%;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 1.4rem;
+  color: #FEF4EF;
+  margin-top: 69rem;
+  margin-left: -32rem;
+}
+
+.dobra2 {
+  background-position: 10% 75%;
+
+}
+
+.row2 {
+  display: none;
+}
+
+.textdobra3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0rem;
+  }
+  
+  .pdobra3 {
+    font-size: 2rem;
+    color: #8374A1;
+    text-align: left;
+    font-size: 4.5rem;
+    width: 70%;
+    margin-left: 5rem;
+    margin-top: 0rem;
+  }
+  
+  .ppdobra3 {
+  font-family: 'Roboto';
+  font-size: 1.5rem;
+  color: #8374A1;
+  width: 70%;
+  line-height: 2rem;
+  margin-left: 5rem;
+  }
+  
+  .t3 {
+  position: absolute;
+  margin-left:0rem;
+  width: 100%;
+  margin-top: 25rem;
+  }
+
+.foto {
+  display: none;
+}
+
+.herowavecontainer {
+  width: 50%;
+}
+
+.divtextdobra4 {
+  width: 75%;
+  margin-left: 5rem;
+  margin-top: 35rem;
+  
+  }
+  
+  .h1dobra4 {
+    font-size: 3.3rem;
+  }
+  
+  .h2dobra4 {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #FEF4EF;
+    margin-top: 1.2rem;
+  }
+  
+  .pdobra4 {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    color: #FEF4EF;
+  }
+  
+  #button3 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1.29rem;
+    margin-top: 4rem;
+    width: 25rem;
+    height: 5rem;
+    margin-left: 2rem;
+  }
+
+#fotomobile {
+width: 100%;
+}
+
+.wavesanimated {
+  display: none;
+}
+
 }
