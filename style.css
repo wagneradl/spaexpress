@@ -688,6 +688,7 @@ font-size: 1.8rem;
 #row2 {
   width: 100%;
   height: 55rem;
+  position:relative;
 }
 
 .textdobra3 {
