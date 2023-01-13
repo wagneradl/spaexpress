@@ -509,3 +509,61 @@ width: 100%;
 }
 
 }
+
+  @media (max-width: 900px) and (max-height: 400px) and (orientation: landscape) {
+    
+.herorowcontainer {
+width: 160%;
+}
+
+.dobra2 {
+width: 160%;
+}
+
+#wave2 {
+  object-fit: cover;
+  width: 160%;
+  height: auto;
+}
+
+.wave2 {
+  width: 160%;
+}
+
+.bullets ul {
+  gap: 17rem;
+}
+
+.bullets {
+  margin-top: 60rem;
+}
+
+.textdobra3 {
+width: 50%;
+margin-top: 10rem;
+}
+
+.ppdobra3 {
+  font-family: 'Roboto';
+font-size: 2rem;
+color: #8374A1;
+}
+
+.dobra4 {
+  width: 160%;
+  height: 80rem;
+  background-color: #8374A1;
+}
+
+.foto {
+  display: flex;
+  width: 40rem;
+  height: 100%;
+}
+
+.divtextdobra4 {
+width: 60%
+
+}
+
+  }
