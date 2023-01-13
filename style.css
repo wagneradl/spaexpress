@@ -1,7 +1,5 @@
 :root {
 
-
-
 font-size: 62.5%;
 }
 
@@ -140,6 +138,12 @@ color: #FEF4EF;
 padding-left: 11.063rem;
 padding-top: 10rem;
 line-height: 3rem;
+}
+
+#wave2 {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 .wave2 {
