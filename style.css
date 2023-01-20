@@ -24,6 +24,7 @@ html {
     display: flex;
     flex-direction: row;
     height: 80rem;
+    width: 100%;
 }
 
 .row {
@@ -550,7 +551,7 @@ width: 100%;
 }
 
 @media (orientation: landscape) and (max-width: 900px) { 
-  
+
 .herorowcontainer {
     width: 85rem;
     height: 60rem;
